@@ -1,4 +1,4 @@
-githttps://matheusbobsin.github.io/Ap2-Boostrap-Front-End/
+https://matheusbobsin.github.io/Ap2-Boostrap-Front-End/
 
 **Por que escolhi esse tema?**
 Eu decidi fazer um site de receitas porque acho um assunto bem visual e legal de estruturar. O nome do portal ficou "Sabores do Mundo" e o foco dele é mostrar um catálogo limpo e bonito de pratos usando fotos reais.
