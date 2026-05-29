@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores do Mundo - Receitas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column min-vh-100" style="background-color: #fdfbf7;">
+
+    <header class="w-100 p-3 shadow-sm" style="z-index: 3; background-color: #8b263e;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <button class="btn btn-outline-light fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral" style="border-color: #ffca3a; color: #ffca3a;">
+                ☰ Menu
+            </button>
+            
+            <a class="text-white text-decoration-none fw-bold fs-4" href="index.html">Sabores do Mundo</a>
+        </div>
+    </header>
+
+    <nav class="offcanvas offcanvas-start bg-white shadow" tabindex="-1" id="menuLateral" style="width: 250px;">
+        <div class="offcanvas-header d-flex justify-content-between align-items-center px-3 mt-2">
+            <h5 class="offcanvas-title fw-bold" style="color: #8b263e;">Navegação do Portal</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body p-3">
+            <div class="list-group">
+                <a href="index.html" class="list-group-item list-group-item-action" style="color: #212529;">Início</a>
+                <a href="galeria.html" class="list-group-item list-group-item-action active" style="background-color: #8b263e; border-color: #8b263e;">Ver Receitas</a>
+                <a href="contato.html" class="list-group-item list-group-item-action">Sugerir Receita / Contato</a>
+            </div>
+            
+            <div class="mt-4 px-2">
+                <p class="fw-bold mb-1 text-muted small text-uppercase">Categorias Rápidas</p>
+                <div class="border-top pt-2">
+                    <a href="galeria.html" class="d-block text-decoration-none py-1 text-dark">🍕 Massas e Salgados</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container flex-grow-1 py-5">
+        <h2 class="text-center fw-bold mb-5" style="color: #8b263e; margin-top: 20px;">Nosso Catálogo de Receitas</h2>
+        
+        <section class="d-flex flex-wrap justify-content-center gap-4">
+            
+            <article class="card shadow-sm border-0" style="width: 18rem; background-color: #fff; border-radius: 8px; overflow: hidden;">
+                <img src="https://www.estadao.com.br/resizer/v2/KAG33DWLBZON5NEBTEJA6VS2WM.jpg?quality=80&auth=14d4307c581e3e00f8cf05f74e6455085e7a291322f8610a01369b07386f22a2&width=1075&height=527&focal=2574,1729" class="card-img-top" alt="Pizza Margherita" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold" style="color: #8b263e;">Pizza Marguerita</h5>
+                    <p class="card-text text-muted small">Clássica receita italiana feita com molho rústico e manjericão fresco colhido na hora.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge text-white" style="background-color: #8b263e;">Fácil</span>
+                        <small class="text-muted fw-bold">30 min</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card shadow-sm border-0" style="width: 18rem; background-color: #fff; border-radius: 8px; overflow: hidden;">
+                <img src="https://moinhoglobo.com.br/wp-content/uploads/2015/10/panqueca-americana-1-640x372.jpg" class="card-img-top" alt="Panqueca Americana" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold" style="color: #8b263e;">Panqueca Americana</h5>
+                    <p class="card-text text-muted small">Massa extremamente fofinha e dourada, ideal para acompanhar mel ou frutas silvestres.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge text-white" style="background-color: #8b263e;">Fácil</span>
+                        <small class="text-muted fw-bold">15 min</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card shadow-sm border-0" style="width: 18rem; background-color: #fff; border-radius: 8px; overflow: hidden;">
+                <img src="https://s2.glbimg.com/PAiGouIyOYAIIaUCtWE0zv3pmj0=/620x455/e.glbimg.com/og/ed/f/original/2019/12/03/lasanha-de-mussarela-de-bufala.jpg" class="card-img-top" alt="Lasanha Bolonhesa" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold" style="color: #8b263e;">Lasanha Bolonhesa</h5>
+                    <p class="card-text text-muted small">Camadas intercaladas de massa artesanal, molho de carne rústico, presunto, queijo derretido e um toque especial de molho branco.</p>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge" style="background-color: #ffca3a; color: #8b263e;">Médio</span>
+                        <small class="text-muted fw-bold">50 min</small>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="text-white text-center py-3 mt-auto" style="z-index: 2; background-color: #2b1c1f;">
+        <div class="container">
+            <small>Projeto desenvolvido para AP2 ULBRA.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
