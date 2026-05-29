@@ -1,3 +1,5 @@
+githttps://matheusbobsin.github.io/Ap2-Boostrap-Front-End/
+
 **Por que escolhi esse tema?**
 Eu decidi fazer um site de receitas porque acho um assunto bem visual e legal de estruturar. O nome do portal ficou "Sabores do Mundo" e o foco dele é mostrar um catálogo limpo e bonito de pratos usando fotos reais.
 
@@ -27,5 +29,3 @@ Também tomei o cuidado de não usar tags genéricas (como ficar espalhando <div
 Para o visual, escolhi cores que lembram culinária: usei um tom de vinho escuro (`#8b263e`) no topo e no rodapé, e os botões e detalhes importantes ganharam um tom dourado (`#ffca3a`) para chamar a atenção. O fundo do site ficou bem clarinho para a leitura ser confortável.
 
 O site é 100% responsivo. Se você abrir no celular, o banner e o formulário ocupam a tela inteira de um jeito confortável para o dedo. Se abrir no computador, eles encolhem para o meio para não ficarem esticados. Para fazer o catálogo de receitas funcionar desse jeito, usei o Display Flex do Bootstrap (**.d-flex**, **.flex-wrap** e **.justify-content-center**). Desse jeito, os cards de receitas ficam um do lado do outro no monitor do computador e quebram para a linha de baixo sozinhos se você abrir o site em uma tela menor, mantendo tudo centralizado e organizado.
-
-**LINK DO SITE**
